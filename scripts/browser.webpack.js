@@ -1,3 +1,5 @@
+// In scripts/browser.webpack.js
+import assert from 'assert';
 import webpack from 'webpack'
 import TerserPlugin from 'terser-webpack-plugin'
 import info from '../package.json' assert { type: 'json' }
